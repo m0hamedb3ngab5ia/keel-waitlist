@@ -27,10 +27,11 @@ dl{margin:0 0 40px}dt{font-weight:600;margin-top:20px}dd{margin:2px 0 0;color:va
 <h1>Master your phone. Then everything else.</h1>
 <form action="https://formspree.io/f/mjywrpok" method="POST">
 <label class="hp" aria-hidden="true">Leave empty <input name="_gotcha" tabindex="-1" autocomplete="off"></label>
+<input type="hidden" name="src" value="direct">
 <input type="hidden" name="v" value="a">
 <input type="email" name="email" placeholder="you@example.com" autocomplete="email" inputmode="email" required aria-label="Email address">
 <button type="submit">Join the waitlist</button>
 </form>
 <p class="priv">Launch emails only.</p>
 <ul class="feat"><li>Mornings without feeds</li><li>Deep work by default</li><li>Meditation that actually starts</li><li>A clear head, every day</li></ul>
-</main></body></html>
+</main><script>var q=new URLSearchParams(location.search).get("src");if(q)document.querySelector("[name=src]").value=q.slice(0,30)</script></body></html>
